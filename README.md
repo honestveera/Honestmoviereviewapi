@@ -1,5 +1,6 @@
 HonestMovieReview Api
-[![Build Status](https://api.travis-ci.org/plataformatec/devise.svg?branch=master)](http://travis-ci.org/plataformatec/devise)
+
+[![Build Status](https://travis-ci.org/honestveera/Honestmoviereviewapi.svg?branch=master)](https://travis-ci.org/honestveera/Honestmoviereviewapi)
 
 # README
 
