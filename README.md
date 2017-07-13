@@ -1,6 +1,6 @@
-HonestMovieReview Api
+# HonestMovieReview Api
 
-
+[![Build Status](https://travis-ci.org/honestveera/Honestmoviereviewapi.svg?branch=master)](https://travis-ci.org/honestveera/Honestmoviereviewapi)
 
 # README
 
