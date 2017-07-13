@@ -34,6 +34,8 @@ group :development, :test do
   gem 'factory_girl_rails'
 end
 
+gem 'travis'
+
 group :test do
   gem 'database_cleaner'
   gem 'shoulda'

@@ -1,3 +1,6 @@
+HonestMovieReview Api
+[![Build Status](https://api.travis-ci.org/plataformatec/devise.svg?branch=master)](http://travis-ci.org/plataformatec/devise)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -31,7 +34,8 @@ Things you may want to cover:
 
 * API End points
 
-    1. Get a list of movies - API call with JSON response
+
+    1.Get a list of movies - API call with JSON response
 
       http://localhost:3000/api/v1/movies
 
@@ -55,7 +59,7 @@ Things you may want to cover:
 
       http://localhost:3000/api/v1/movies/highestrating
 
-  * Rspec API and model testing
+* Rspec API and model testing
 
      rspec  spec/requests/api/v1/movies_spec.rb
 
