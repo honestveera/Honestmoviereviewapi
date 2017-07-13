@@ -5,6 +5,6 @@ FactoryGirl.define do
     movie_length "MyString"
     director "MyString"
     rating "MyString"
-    user nil
+    user 1
   end
 end

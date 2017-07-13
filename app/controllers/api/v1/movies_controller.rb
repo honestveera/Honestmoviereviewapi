@@ -12,6 +12,12 @@ class Api::V1::MoviesController < ApplicationController
    render json: @movie
   end
 
+  #Movies overall highest rating
+  def highestrating
+   @highestrating = Movie.moviehighestrating
+   @highestrating[0]["title"] = Movie.find(@highestrating[0]["movie_id"]).title
+   render json: @highestrating[0]
+  end
 
   # POST /movies
   def create

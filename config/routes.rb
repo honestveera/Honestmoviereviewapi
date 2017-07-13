@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :movies do
+         collection do
+           get "highestrating"
+          end
         resources :reviews do
           collection do
              get "average"

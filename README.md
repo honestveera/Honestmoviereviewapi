@@ -13,14 +13,12 @@ Things you may want to cover:
 
      5.0.4  
 
-* System dependencies
-
-* Configuration
-
 * Database creation
 
     rake db:create
+
     rake db:migrate
+
     rake db:schema:load
 
 * Database initialization
@@ -52,4 +50,20 @@ Things you may want to cover:
     5.Get average rating for any movie - API call with JSON response
 
       http://localhost:3000/api/v1/movies/1/reviews/average
+
+    6.Movies highest rating
+
+      http://localhost:3000/api/v1/movies/highestrating
+
+  * Rspec API and model testing
+
+     rspec  spec/requests/api/v1/movies_spec.rb
+
+     rspec  spec/requests/api/v1/reviews_spec.rb
+
+     rspec  spec/requests/movies_spec.rb
+
+     rspec  spec/request/reviews_spec.rb
+
+
 

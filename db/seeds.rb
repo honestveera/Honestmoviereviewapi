@@ -14,7 +14,7 @@ end
 
 #First2 movies have a 5 reviews
 (1..10).to_a.each do |i|
-  Review.create(rating:3,comment:"comment #{i}",user_id:"#{i<=5 ? 1 : 2}",movie_id:"#{i<=5 ? 1 : 2}")
+  Review.create(rating:"#{i<=5 ? 3 : 2}",comment:"comment #{i}",user_id:"#{i<=5 ? 1 : 2}",movie_id:"#{i<=5 ? 1 : 2}")
 end
 
 
