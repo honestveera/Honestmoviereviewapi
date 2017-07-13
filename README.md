@@ -18,18 +18,38 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+
     rake db:create
     rake db:migrate
     rake db:schema:load
 
 * Database initialization
+
     rake db:seed
 
 * How to run the test suite
+
     rspec filepath
 
-* Services (job queues, cache servers, search engines, etc.)
+* API End points
 
-* Deployment instructions
+    1. Get a list of movies - API call with JSON response
 
+      http://localhost:3000/api/v1/movies
+
+    2.Get particular movie - API call with JSON response
+
+      http://localhost:3000/api/v1/movies/1
+
+    3.Get particular movie all reviews - API call JSON with response
+
+      http://localhost:3000/api/v1/movies/1/reviews
+
+    4.Get particular movie particular review - API call JSON with response
+
+      http://localhost:3000/api/v1/movies/1/reviews/1
+
+    5.Get average rating for any movie - API call with JSON response
+
+      http://localhost:3000/api/v1/movies/1/reviews/average
 
