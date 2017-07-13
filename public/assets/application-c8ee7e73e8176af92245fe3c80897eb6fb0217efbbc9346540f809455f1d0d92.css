@@ -1,0 +1,31 @@
+/* This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *
+ *
+ *
+ */
+ *
+ * @import "bootstrap-sprockets"
+ * @import "bootstrap" */
+/* line 1, /home/honestraj/.rvm/gems/ruby-2.3.1@movie231/gems/devise-bootstrap-views-0.0.11/app/assets/stylesheets/devise_bootstrap_views.scss */
+.float-none {
+  float: none;
+}
+
+/* line 5, /home/honestraj/.rvm/gems/ruby-2.3.1@movie231/gems/devise-bootstrap-views-0.0.11/app/assets/stylesheets/devise_bootstrap_views.scss */
+.panel-heading {
+  padding: 15px;
+}
+/* line 7, /home/honestraj/.rvm/gems/ruby-2.3.1@movie231/gems/devise-bootstrap-views-0.0.11/app/assets/stylesheets/devise_bootstrap_views.scss */
+.panel-heading h4 {
+  margin: 0px;
+}
